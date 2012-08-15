@@ -4,8 +4,6 @@ import akka.actor.{Props, ActorSystem, ActorLogging}
 import akka.util.Timeout
 import akka.util.duration._
 import akka.actor.Actor
-import akka.camel.CamelMessage
-
 
 object TestHarnessApp extends App {
   val sys = ActorSystem("TestHarnessApp")
